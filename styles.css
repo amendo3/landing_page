@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -39,6 +39,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -46,19 +47,22 @@ a {
     text-align: center;
     align-items: center;
     background-color: gray;
+    margin-bottom: 40px;
 }
 
 .title {
     font-size: 48px;
     font-weight: 800;
-    width: 300px;
+    width: 350px;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 .text {
     font-size: 18px;
-    width: 360px;
+    width: 450px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 button {
@@ -68,4 +72,113 @@ button {
     height: 30px;
     color: white;
     background-color: #3882F6;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.titles2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 4px solid lightblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 80px;
+}
+
+.texts {
+    display: flex;
+    font-size: 14px;
+    color: gray;
+    gap: 87px;
+    justify-content: center;
+}
+
+.text1, .text2, .text3, .text4 {
+    width: 130px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    background-color: #e5e7eb;
+    height: 400px;
+
+}
+
+.quote {
+    width: 800px;
+}
+
+.person {
+    font-size: 20px;
+    font-weight: 800;
+    align-self: end;
+    margin-right: 400px;
+}
+
+.section3 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.s3container {
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    border-radius: 10px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 150px;
+}
+
+.s3left {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+
+.button2 {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.s3title {
+    font-weight: 900;
+}
+
+.s3text {
+    font-size: 13px;
+    font-weight: 100;
 }
